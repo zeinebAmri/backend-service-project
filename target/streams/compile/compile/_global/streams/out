@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/zeineb.amri/assignments/src/main/scala/BackendService.scala:1:13: object actor is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.typed.ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zeineb.amri/assignments/src/main/scala/BackendService.scala:2:13: object actor is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.typed.scaladsl.Behaviors[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zeineb.amri/assignments/src/main/scala/BackendService.scala:21:34: value parseJson is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m        val jsonAst = jsonString.parseJson[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zeineb.amri/assignments/src/main/scala/BackendService.scala:22:38: not found: type MyData[0m
+[0m[[0m[31merror[0m] [0m[0m        val data = jsonAst.convertTo[MyData][0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zeineb.amri/assignments/src/main/scala/BackendService.scala:30:5: Symbol 'type akka.actor.ExtensionId' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'object akka.http.scaladsl.Http'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ExtensionId is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Http.class' was compiled against an incompatible version of akka.actor.[0m
+[0m[[0m[31merror[0m] [0m[0m    Http().newServerAt("localhost", 8081).bind(route)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/zeineb.amri/assignments/src/main/scala/BackendService.scala:30:9: could not find implicit value for parameter system: akka.actor.ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m    Http().newServerAt("localhost", 8081).bind(route)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
